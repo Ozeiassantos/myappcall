@@ -10,7 +10,7 @@ export default function SignUp() {
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
 
-    const { signUp, loadingAuth } =useContext(AuthContext);
+    const { signUp, loadingAuth } = useContext(AuthContext);
 
     async function handleSubmit(e){
         e.preventDefault();

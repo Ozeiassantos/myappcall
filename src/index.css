@@ -14,6 +14,9 @@ dody{
   font-family: sans-serif;
   background-color: #efefef;
 }
+a{
+  text-decoration: none;
+}
 
 ul{
   list-style: none;
