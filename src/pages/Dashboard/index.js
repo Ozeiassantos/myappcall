@@ -42,16 +42,39 @@ export default function Dashboard() {
                     </thead>
                     <tbody>
                         <tr>
-                            <td data-label="cliente">Mercado Esquina</td>
+                            <td data-label="Cliente">Mercado Esquina</td>
                             <td data-label="Asssunto">suporte</td>
-                            <td data-label="Status">Em Aberto</td>
+                            <td data-label="Status">
+                               <span className='badge' style={{backgroundColor:'#999'}}>
+                                    Em Aberto
+                               </span>
+                            </td>
                             <td data-label="Cadastrado">12/05/2022</td>
                             <td data-label="#">
                                 <button className='action' style={{backgroundColor: '#3583f6'}}>
                                     <FiSearch color='#fff' size={17} />
                                 </button>
-                                <button className='action'>
-                                    <FiEdit2 color='#fff' size={17} style={{ backgroundColor: '#f6a935' }} />
+                                <button className='action' style={{ backgroundColor: '#f6a935' }} >
+                                    <FiEdit2 color='#fff' size={17} />
+                                </button>
+                            </td>
+
+                        </tr>
+                        <tr>
+                            <td data-label="Cliente">Informatica TECH</td>
+                            <td data-label="Asssunto">suporte</td>
+                            <td data-label="Status">
+                                <span className='badge' style={{ backgroundColor: '#999' }}>
+                                    Em Aberto
+                                </span>
+                            </td>
+                            <td data-label="Cadastrado">12/05/2022</td>
+                            <td data-label="#">
+                                <button className='action' style={{ backgroundColor: '#3583f6' }}>
+                                    <FiSearch color='#fff' size={17} />
+                                </button>
+                                <button className='action' style={{ backgroundColor: '#f6a935' }}>
+                                    <FiEdit2 color='#fff' size={17}  />
                                 </button>
                             </td>
 
